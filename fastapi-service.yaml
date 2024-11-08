@@ -4,14 +4,9 @@ metadata:
   name: fastapi-service
 spec:
   selector:
-    app: fastapi
+    app: fastapi  
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 8000
+      port: 80 
+      targetPort: 8000  
   type: NodePort  
-
-
-
-
-  
